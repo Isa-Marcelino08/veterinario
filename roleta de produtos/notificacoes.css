@@ -1,0 +1,56 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.cadastro-box {
+    background: #655793;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    width: 120vh;
+}
+
+.cadastro-box h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #090808;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+input, select {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    transition: 0.3s;
+}
+
+input:focus, select:focus {
+    border-color: #b79deb;
+    outline: none;
+}
+
+button {
+    background: #ff758c;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #e8416c;
+    transform: scale(1.05);
+}
